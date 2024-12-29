@@ -1,0 +1,76 @@
+/* CSS Document */
+
+body {
+	background: rgb(255,255,255);
+	color: #444444;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+	font-size:18px;
+}
+
+/* Headings */
+
+h1 {
+  	font-size:30pt;
+}
+
+h2 {
+	font-size:16pt;
+	font-weight: bold;
+}
+
+h3 {
+  	font-size:14pt;
+}
+
+a:active {
+  color: red;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* Main page container */
+
+.container {
+	width: 1024px;
+	text-align: left;
+	padding: 1em 1em 1em 1em; /* top, right, bottom, left */
+}
+
+.title{
+	font-size: 22pt;
+	font-weight:bold;
+	margin: 1px;
+}
+
+.title-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.iframe-container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+iframe {
+	width: 95%; /* Adjust this value as needed */
+	height: 800px;
+}
+
+.round-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 10px;
+}
+
+.instructor-info {
+    display: flex;
+    align-items: center;
+}
